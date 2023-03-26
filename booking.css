@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.background-image {
+	background-image: url('https://www.zdnet.com/a/img/resize/270c7c38c38749ebd1c65df4c278e3fede53e577/2023/02/02/41dfa1fd-f14c-4c32-ab16-925df4694432/gettyimages-1392545229.jpg?auto=webp&width=1280');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+    color: white;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.466);
+}
+
+h1 {
+	margin-bottom: 1em;
+	font-size: 3em;
+	font-weight: bold;
+    color: white;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2em;
+}
+
+label {
+	margin-bottom: 0.5em;
+	font-weight: bold;
+    color: white;
+}
+
+input, select {
+	margin-bottom: 1em;
+	padding: 0.5em;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+	font-size: 1em;
+}
+
+button {
+	padding: 15px 15px;
+	border: none;
+	border-radius: 5px;
+	background-color: #8574A1;
+	color: #fff;
+	font-size: 15px;
+    font-weight: bolder;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #5a4e6d;
+}
+
+.social-media {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2em;
+}
+
+.social-media a {
+	margin: 0 0.5em;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1
+}

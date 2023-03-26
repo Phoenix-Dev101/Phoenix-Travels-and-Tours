@@ -1,0 +1,19 @@
+<label for="amount">Plan</label>
+			<select id="amount" name="amount">
+				<option >Basic Phoenix</option>
+				<option value="59.99">Pro Phoenix</option>
+				<option value="99.99">Premium Phoenix</option>
+			</select>
+
+			<blockquote>"I was a college student looking to travel for my studies, the guides helped me get my visa and made sure i reached my destination safe and sound!"</blockquote>
+        <cite>Roberts Drowson</cite>
+      </li>
+      <li>
+        <blockquote>"I normally dont travel but this website made me become a travel blogger! this is my main source of income now, thank you!!"</blockquote>
+        <cite>Amanda Harris</cite>
+      </li>
+      <li>
+        <blockquote>"Absolutely amazing!, minimalistic but effective!!"</blockquote>
+        <cite>Mark Wilson</cite>
+      </li>
+    </ul>

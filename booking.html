@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Booking Page</title>
+	<link rel="stylesheet" href="booking.css">
+</head>
+<body>
+	<div class="background-image"></div>
+	<div class="container">
+		<h1>Book Your Flight</h1>
+		<form>
+			<label for="destination">Destination:</label>
+			<input type="text" id="destination" name="destination" placeholder="Enter Destination">
+
+			<label for="date">Departure Date:</label>
+			<input type="text" id="date" name="date">
+
+            <label for="date">Arrival Date:</label>
+			<input type="text" id="date" name="date">
+
+			<label for="trip-type">Trip Type:</label>
+			<select id="trip-type" name="trip-type">
+				<option value="one-way">One Way</option>
+				<option value="round-trip">Round Trip</option>
+			</select>
+
+			<label for="hotel">Hotel Selection:</label>
+			<input type="text" id="hotel" placeholder="enter hotel name">
+
+			<button onclick="window.open('final.html', '_blank');" type="submit">Book Now</button>
+		</form>
+		<div class="social-media">
+			<a href="#">Facebook</a>
+			<a href="#">Instagram</a>
+			<a href="#">Twitter</a>
+		</div>
+	</div>
+	<footer>
+		<p>&copy; 2023 Flight Booking Page</p>
+	</footer>
+</body>
+</html>
